@@ -91,11 +91,10 @@ func TestCounting(t *testing.T) {
 }
 
 func TestHeap(t *testing.T) {
-	t.Skip("unimplemented")
 
 	a := append([]int(nil), a...)
 
-	// Heap(a)
+	Heap(a)
 
 	for i, n := range a {
 		if i != n {
